@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Form Bobajun 3.2</title>
+</head>
+<body>
+    <h1>
+        Junstore | Bobajun-on-Demand
+    </h1>
+    <form method="post">
+        <p>Our 12* wood-fired Bobajun are available for delivery. Build your custom Bobajun and we'll deliver it within an hour.</p>
+        <fieldset>
+            <legend><h2>Your Information</h2></legend>
+    <table>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td>:</td>
+            <td><input type="text" id="name" name="customername"></td>
+        </tr>
+        <tr>
+            <td> <label for="address">Address</label></td>
+            <td>:</td>
+            <td> <input type="text" name="address" id="address"></td>
+        </tr>
+        <tr>
+            <td><label for="number">Telephone Number</label></td>
+            <td>:</td>
+            <td><input type="text" name="telephone" id="number"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td>:</td>
+            <td><input type="text" name="email" id="email"></td>
+        </tr>
+        <tr >
+            <td><label for="instruction">Delivery instructions</label></td>
+            <td>:</td>
+            <td><textarea name="instructions" id="instruction" cols="30" rows="10"></textarea></td>
+        </tr>
+    </table>
+        </fieldset>
+        <form>
+            <fieldset>
+            <legend><h2>Your Favorite Bobajun Design</h2></legend>
+            <h4>Bobajun Specs</h4>
+            <p>Crust: <input type="text" list="Bobajun" name="crust"></p>
+            <datalist id="Bobajun">
+                <option value="Bobajun Original">
+                <option value="Bobajun Taro">
+                <option value="Bobajun Strawbery">
+                <option value="Bobajun Vanila">
+            </datalist>
+            <p>Toppings</p>
+                        <input type="checkbox" id="food1" name="food1">
+                        <label for="food1">Susu</label>
+                        <input type="checkbox" id="food2" name="food2">
+                        <label for="food2">Buble</label><br>
+                        <input type="checkbox" id="food3" name="food3">
+                        <label for="food3">Meses</label>
+                        <input type="checkbox" id="food4" name="food4">
+                        <label for="food4">Oreo</label><br>
+            <p>Number</p>
+            <label>Number Many Bobajun <input type="number" name="Bobajun" min="1" max="6"></label>
+            <table>
+                <tr>
+                    <a href="Tugas_Form_thankyou.html">
+                        <Button style=""><a href = "Tugas_Form_thankyou.html">Order</Button></a>
+                    <th><input type="reset" value="Reset"></th>
+                </tr>
+            </table>
+        </fieldset>
+
+        </form>
+            
+    </form>
+
+    
+</body>
+</html>
