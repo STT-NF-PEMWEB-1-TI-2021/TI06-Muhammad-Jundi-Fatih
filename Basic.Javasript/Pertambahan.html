@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Soal 4</title>
+    <script type="text/javascript">
+		function hitung(){
+ 
+			let x = Number(document.getElementById('bil1').value); 
+			let y = Number(document.getElementById('bil2').value);
+			let z = x + y ;
+			document.getElementById('bil3'). value=z;
+		}
+		
+	</script>
+
+</head>
+<body>
+	<form id="form10">
+		<input type="text" id="bil1" value="0" onchange="hitung()"/>
+        <br>
+		<b>+</b>
+		<br>
+		<input type="text" id="bil2" value="0" onchange="hitung()"/> 
+		<br>
+		<b>=</b>
+		<br>
+		<input type="text" id="bil3" value="0"/>
+	</form>
+</body>
+</html>
